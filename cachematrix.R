@@ -6,6 +6,10 @@
 
 ## Assumptions: the matrix supplied is always invertible.
 
+## GitHub and Stack Overflow were consulted extensively for this project. Any
+## similarities in code were not intended but could be could be artifacts of
+## the code observed from these repositories. 
+
 ## This function creates a special "matrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(x = matrix()) {
